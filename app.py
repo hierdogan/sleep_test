@@ -75,7 +75,7 @@ elif app_mode == "Diagnosis":
 
         # load the train model
         # with open('./xgb_model.pkl', 'rb') as rf:
-        model = pickle.load(open('/Users/ibrahim/PycharmProjects/dsb_13/rf57_model.pkl', 'rb'))
+        model = pickle.load(open('./rf57_model.pkl', 'rb'))
 
 
         def predict(BLOOD_PRESSURE_SYSTOLIC, BLOOD_PRESSURE_DIASTOLIC,BMI_CATEGORY_Overweight, AGE, SLEEP_DURATION):
